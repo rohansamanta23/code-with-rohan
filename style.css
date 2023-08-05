@@ -1,0 +1,193 @@
+*{
+    font-family: 'Fira Code', monospace;
+    margin: 0%;
+    padding: 0%;
+    color: aliceblue;
+}
+body{
+    background-color: rgb(37, 37, 37);
+}
+h1{
+    font-size: 3rem;
+}
+#blk > p{
+    font-size: 1em;
+}
+span{
+    color: rgb(109, 109, 181);
+}
+span:hover{
+    color: rgb(132, 132, 215)
+}
+#main{
+    color: rgb(240, 248, 255);
+    background-color: rgb(21, 21, 24);
+}
+#container{
+    float: right;
+    width: 85px;
+    margin-right: 4%;
+    margin-top: 10px;
+}
+#profile{
+    position: relative;
+    border-radius: 50%;
+    height: 85px;
+    float: right;
+    /* margin-right: 4%; */
+    margin-top: 10px;
+    z-index: 100;
+}
+#instagram{
+    position: absolute;
+    border-radius: 50%;
+    height: 85px;
+    margin-right: 4%;
+    margin-top: 10px;
+    float: right;
+    z-index: 50;
+}
+#instagram:hover{
+     transform: scale(1.01);
+    border: 2px solid white;
+}
+#profile:hover{
+    transform: scale(1.01);
+    border: 2px solid white;
+    z-index: 10;
+}
+#blk{
+    margin-left: 4%;
+    border-left:1px solid white;
+    padding: 10px;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    
+}
+.eat{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+#line{
+    border-bottom: 1px solid rgb(109, 109, 181);
+    border-top: 1px solid rgb(109, 109, 181);
+    background-color: rgb(37, 37, 37);
+}
+.card{
+    height: 200px;
+    width: 300px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.cls{
+    width: 41%;
+    /* border: 1px solid rgb(111, 105, 123); */
+    border-radius: 10px;
+    background-color: rgb(18, 18, 20);
+    transition: transform 0.5s;
+}
+.heading{
+    color: rgb(109, 109, 181);
+    padding: 10px 0px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.heading:hover{
+    color: rgb(132, 132, 215);
+}
+.text{
+    text-align: justify;
+    padding-right: 20px;
+}
+.break{
+    clear: both;
+}
+.first,.third,.fifth{
+    margin: 50px 0px 0px 4%;
+    float: left;
+}
+.second,.fourth,.sixth{
+    float: right;
+    margin: 50px 4% 0px 0px;
+}
+.cls:hover{
+    transform: scale(1.01);
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 5px 15px rgba(109, 109, 181,0.4);
+    border: none;
+}
+footer{
+    background-color: rgb(21, 21, 24);
+    clear: both;
+    margin-top: 100px;
+    border-top: 1px solid rgb(109, 109, 181);
+
+}
+body > footer > p{
+    text-align: right;
+    color:rgb(109, 109, 181);
+    margin-right: 4%;
+    padding: 100px 0px 20px 0px;
+}
+body > footer > p:hover{
+    color: rgb(132, 132, 215)
+}
+@media(max-width:750px){
+    #instagram{
+        overflow: hidden;
+        display: none;
+    }
+    #container {
+        margin-top: 0px;
+    }
+    h1{
+        font-size: 1.5rem;
+        display: inline;
+    }
+    #blk > p{
+        font-size: 0.6em;
+        width: 220px;
+    }
+    
+    #profile{
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: 8px;
+    }
+    #line{
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    .eat{
+        font-size: 15px;
+        display: inline-block;
+        width: 22%;
+    }
+   .cls{
+    display: block;
+    position: relative;
+    width:300px;
+    margin: 50px auto 0px auto;
+    float:unset;
+   }
+   .sixth{
+    margin-bottom: 30px;
+    }
+   .card{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    float: none;
+    margin: 0px 0px 20px 0px;
+   }
+   .heading{
+    padding: 0px 0px 10px 15px;
+   }
+   .text{
+    padding: 15px;
+    text-decoration: none;
+   }
+}
